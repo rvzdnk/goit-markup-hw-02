@@ -306,3 +306,74 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);    
 }
+
+/*Portfolio*/
+/*Buttons*/
+.portfolio-buttons button{
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor:pointer; 
+}
+
+.portfolio-buttons button:hover{
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px; 
+    color: #FFFFFF; 
+}
+
+.all{
+    width: 121px;
+}
+
+.sites{
+    width: 93px;    
+}
+
+.apps{
+    width: 114px;
+}
+
+.designs{
+    width: 91px;
+}
+
+.marketings{
+    width: 121px;   
+}
+
+.portfolio-pics figure{
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box; 
+}
+
+.portfolio-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;  
+    color: #212121;    
+}
+.portfolio-description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
